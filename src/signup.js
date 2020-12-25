@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import Otp from "./otp-form";
-// import Thankyou from "./thank-you";
 
 const SignUpForm = () => {
   const [signup, setSignup] = useState({
@@ -22,7 +20,6 @@ const SignUpForm = () => {
       signup.email &&
       signup.password
     ) {
-      // const newsignup = { ...signup, id: new Date().getTime().toString() };
       setSignup({ firstName: "", lastName: "", email: "", password: "" });
     }
   };

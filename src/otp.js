@@ -9,7 +9,6 @@ const OtpForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (otp.otp) {
-      // const newsignup = { ...signup, id: new Date().getTime().toString() };
       setOtp("");
     }
   };

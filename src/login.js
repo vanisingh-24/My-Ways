@@ -13,7 +13,6 @@ const LoginForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (login.email && login.password) {
-      // const newsignup = { ...signup, id: new Date().getTime().toString() };
       setLogin({ email: "", password: "" });
     }
   };
